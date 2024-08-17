@@ -1,3 +1,7 @@
+html{
+    scroll-snap-type: y mandatory;
+}
+
 body{
     background-color: rgb(0, 0, 22);
     color: white;
@@ -58,6 +62,7 @@ main hr{
     justify-content: space-around;
     align-items: center;
     height: 93vh;
+    scroll-snap-align: start;
 }
 
 #home > div{
@@ -86,7 +91,7 @@ main hr{
     margin: auto;
     margin-bottom: 10px;
     height: 80vh;
-}
+    scroll-snap-align: start;
 
 #projects h1{
     font-size: 1.6rem;
